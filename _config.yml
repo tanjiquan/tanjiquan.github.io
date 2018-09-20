@@ -1,3 +1,5 @@
 repository: tanjiquan/tanjiquan.github.io
 github_url: https://github.com/tanjiquan
 url: https://tanjiquan.github.io
+
+theme: jekyll-theme-dinky
