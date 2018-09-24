@@ -10,8 +10,6 @@ catalog:      true
 multilingual: true
 tags:
     - 前端开发
-    - JavaScript
-    - PWA
 ---
 
 <!-- Chinese Version -->
