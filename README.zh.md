@@ -1,4 +1,4 @@
-# Hux blog 模板
+# Tanjiquan blog 模板
 
 ### [我的博客在这里 &rarr;](http://huxpro.github.io)
 
@@ -79,13 +79,13 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
-description: "Cool Blog"    # 随便说点，描述一下
+title: Tanjiquan Blog             # 你的博客网站标题
+SEOTitle: Tanjiquan Blog			# 在后面会详细谈到
+description: "Tanjiquan Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: tanjiquan     # 你的github账号
+weibo_username: jiquantan      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章

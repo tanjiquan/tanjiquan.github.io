@@ -1,6 +1,6 @@
-# Hux Blog
+# Tanjiquan Blog
 
-### [View Live Hux Blog &rarr;](https://huangxuan.me)
+### [View Live Tanjiquan Blog &rarr;](https://tanjiquan.github.io)
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
@@ -121,13 +121,13 @@ You can easily get started by modifying `_config.yml`:
 
 ```
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog			# check out docs for more detail
-description: "Cool Blog"    # ...
+title: Tanjiquan Blog             # title of your website
+SEOTitle: Tanjiquan Blog			# check out docs for more detail
+description: "Tanjiquan Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: tanjiquan     # modify this account to yours
+weibo_username: jiquantan      # the footer woule be auto-updated.
 
 # Build settings
 # paginate: 10              # nums of posts in one page
