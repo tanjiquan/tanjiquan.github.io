@@ -18,7 +18,8 @@ zhihu_username:     tanjiquan
 github_username:    tanjiquan
 twitter_username:   tanjiquan
 #facebook_username:  tanjiquan
-#linkedin_username:  firstname-lastname-idxxxx
+#jianshu_username:   4f0239f60572
+#linkedin_username:  tan.ji.quan.jessy
 
 
 
@@ -52,8 +53,18 @@ kramdown:
 
 
 
-# Disqus settings（这里是shortname 不是username）
-disqus_username: https-tanjiquan-github-io
+# Disqus settings（这里是shortname 不是username），这里不用 Disqus，Disqus 需要翻墙才能看
+# disqus_username: https-tanjiquan-github-io
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: e2b87a4864fbae0d02ef                            #生成的clientID
+  clientSecret: 21b503f21f41f53a3b71877e006c3e887e0f904a    #生成的clientSecret
+  repo: tanjiquan.github.io    #仓库名称
+  owner: tanjiquan    #github用户名
+  admin: tanjiquan
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 # Netease settings
 netease_comment: false

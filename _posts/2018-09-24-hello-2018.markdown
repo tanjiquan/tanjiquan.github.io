@@ -1,16 +1,22 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
-title:      My First Post               # 标题
-subtitle:   Hello World, Hello Blog #副标题
+title:      新的开始               # 标题
+subtitle:   Hello Blog #副标题
 date:       2018-09-24              # 时间
 author:     tanjiquan                      # 作者
-header-img: img/in-post/post-eleme-pwa/eleme-at-io.jpg    #这篇文章标题背景图片
+header-img: img/in-post/2018-09-24-hello-2018.png    #这篇文章标题背景图片
 catalog: true                       # 是否归档
 tags:                               #标签
     - 生活
 ---
 
-## Hey
->这是我的第一篇博客。
+>小激动
 
-进入你的博客主页，新的文章将会出现在你的主页上.
+
+这么久了，终于有点勇气把自己的博客也搞搞了，也是时候给自己一个总结和交代了。
+
+希望以后工作再忙，生活在枯燥，也不要忘了时长在博客中给自己一个小结。
+
+在漫长的时间线上，轻描淡写的给自己来几笔，让时间去见证一切。
+
+最后，在此感谢 Hux 大神提供的[主题](https://github.com/Huxpro/huxpro.github.io), 感谢[柏荧的blog](https://www.jianshu.com/p/e68fba58f75c)
