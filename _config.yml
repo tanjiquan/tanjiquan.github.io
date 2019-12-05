@@ -1,11 +1,11 @@
 # Site settings
-title: tanjiquan Blog
-SEOTitle: 谭继全的博客 | tanjiquan Blog
-header-img: img/home-bg.jpg
+title: tanjiquan Blog   #你博客的标题
+SEOTitle: 谭继全的博客 | tanjiquan Blog #显示在浏览器上搜索的时候显示的标题
+header-img: img/home-bg.jpg #显示在首页的背景图片
 email: tan_jiquan@163.com
-description: "世界那么美，走出去看看。"
+description: "世界那么美，走出去看看。"   #网站介绍
 keyword: "谭继全, 谭继全, 谭, 继全, tan, jiquan, tanjiquan的博客, tanjiquan Blog, 博客, 个人网站, 互联网, Web, Java, 大数据"
-url: "https://tanjiquan.github.io"              # your host, for absolute URL
+url: "https://tanjiquan.github.io"             # 博客地址
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -16,9 +16,9 @@ RSS: false
 weibo_username:     jiquantan
 zhihu_username:     tanjiquan
 github_username:    tanjiquan
-twitter_username:   tanjiquan
+#twitter_username:   tanjiquan
 #facebook_username:  tanjiquan
-#jianshu_username:   4f0239f60572
+jianshu_username:   4f0239f60572
 #linkedin_username:  tan.ji.quan.jessy
 
 
@@ -81,17 +81,17 @@ ga_domain: tanjiquan.github.io
 
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true                          # 是否开启侧边栏.
 sidebar-about-description: "Trust the process<br>相信过程"
-sidebar-avatar: /img/avatar-tan-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar-tan-ny.jpg      # 你的个人头像
 
 
 # 在首页可以看到的特色标签，当你的文章出现相同标签（默认相同的标签数量大于1），才会自动生成。
 #将其修改为featured-condition-size: 0, 这样只有一个标签时也会出现在首页了。
 #相反，当你博客比较多，标签也很多时，这时你就需要改回 1 甚至是 2 了。
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
