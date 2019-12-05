@@ -1,7 +1,7 @@
 # Site settings
 title: tanjiquan Blog   #你博客的标题
 SEOTitle: 谭继全的博客 | tanjiquan Blog #显示在浏览器上搜索的时候显示的标题
-header-img: img/home-bg.jpg #显示在首页的背景图片
+header-img: img/self/home-bg.jpg #显示在首页的背景图片
 email: tan_jiquan@163.com
 description: "世界那么美，走出去看看。"   #网站介绍
 keyword: "谭继全, 谭继全, 谭, 继全, tan, jiquan, tanjiquan的博客, tanjiquan Blog, 博客, 个人网站, 互联网, Web, Java, 大数据"
@@ -83,7 +83,7 @@ ga_domain: tanjiquan.github.io
 # Sidebar settings
 sidebar: true                          # 是否开启侧边栏.
 sidebar-about-description: "Trust the process<br>相信过程"
-sidebar-avatar: /img/avatar-tan-ny.jpg      # 你的个人头像
+sidebar-avatar: /img/self/avatar-tan-ny.jpg      # 你的个人头像
 
 
 # 在首页可以看到的特色标签，当你的文章出现相同标签（默认相同的标签数量大于1），才会自动生成。
