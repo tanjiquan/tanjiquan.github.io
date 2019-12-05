@@ -1,6 +1,6 @@
-# Tanjiquan Blog
+# tanjiquan Blog
 
-### [View Live Tanjiquan Blog &rarr;](https://tanjiquan.github.io)
+### [View Live tanjiquan Blog &rarr;](https://tanjiquan.github.io)
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
