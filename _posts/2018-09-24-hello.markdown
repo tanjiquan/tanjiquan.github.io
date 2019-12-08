@@ -1,0 +1,22 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      伊始               # 标题
+subtitle:   伊始，而无终 #副标题
+date:       2018-09-24              # 时间
+author:     tanjiquan                      # 作者
+header-img: img/in-post/2018-09-24-hello.png    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - 生活
+---
+
+>伊始
+
+
+这么久了，终于有点勇气把自己的博客倒腾倒腾了，也顺带给自己一个总结。
+
+希望以后工作生活中，也不要忘了时常在博客中给自己一个小结。
+
+在闲暇时，简单记录下生活和学习的细枝末节，让时间不再匆忙。
+
+最后，在此感谢 [Hux 大神](https://github.com/Huxpro/huxpro.github.io)提供的主题, 感谢[柏荧的blog教程](https://www.jianshu.com/p/e68fba58f75c)

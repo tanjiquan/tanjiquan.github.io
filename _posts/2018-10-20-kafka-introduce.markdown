@@ -22,7 +22,7 @@ RabbitMQ:分布式,支持多种MQ协议,重量级（）
 <br> ***ActiveMQ***:与RabbitMQ类似（ActiveMQ 一般用作在web中，将request请求发到ActiveMQ中，再webserver再将request请求拿出来进行处理，这个请求并不高）
 <br> ***ZeroMQ***:以库的形式提供,使用复杂,无持久化
 <br> ***redis***:纯内存性好,持久化较差
-<br> ***Kestre***l:单机,持久化
+<br> ***Kestrel***:单机,持久化
 <br> ***kafka***:分布式,较长时间持久化,高性能,轻量灵活
 <br>
 <br>&emsp;&emsp;  ***RabbitMQ***也是常见的消息对列,它支持多种MQ的协议,jms啊,等多种协议等等, 它的缺点比较重,erlang，server段维护消费状态，比较复杂.另外一个ActiveMQ也和RabbitMQ类似,支持的协议比较多
