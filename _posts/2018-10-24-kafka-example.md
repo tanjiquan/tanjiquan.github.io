@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Kafka 使用示例
+title:      Kafka 消息序列化
 subtitle:   Kafka
 date:       2018-10-24
 author:     tanjiquan
