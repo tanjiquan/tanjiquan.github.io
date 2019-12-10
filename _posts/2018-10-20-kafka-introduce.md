@@ -43,15 +43,19 @@ kafka 是一个高吞吐的分布式消息系统，是一种发布订阅的消�
 
 ### 3.1 Kafka基本术语
 **zookeeper**: 管理broker集群，管理元数据。
-<br>**producer**: 消息生产者
-<br> **consumer**: 消息消费者，向broker发送消息；consumerGroup
-<br> **broker**: kafka集群的server， 负责处理消息读、写请求，存储消息，可以由一个或多个服务器组成，每个服务器叫做一个broker
+<br>**producer**: 消息生产者。
+<br> **consumer**: 消息消费者，向broker发送消息。
+<br> **consumerGroup**: 每个 Consumer 具有一个 group id 用于标记其消费者组。具有相同 group id 的 Consumer，共同消费某个（或某些）topic。
+<br> **broker**: kafka集群的server， 负责处理消息读、写请求，存储消息，可以由一个或多个服务器组成，每个服务器叫做一个broker。
 <br> **topic**: 消息队列主题/分类，一个topic分成多个partition（一个topic的partition分布在多台机器中），一个partition只能对应一个broker，一个broker管理多个partition。
 <br> **partition**: 一个topic中的消息数据按照多个分区组织，分区是kafka是消息队列组织的最小单位，一个分区可以看做是一个队列。副本也是一partition为单位。副本之间以复制为关系关联。
-（1）为了实现负载均衡，Kafka尽量将所有的Partition均匀分配到整个集群上。一个典型的部署方式是一个Topic的Partition数量大于Broker的数量
-（2）为了实现高可用，kafka可以配置配个分区的副本，副本存储在不同的broker上。但是副本数量必须小于等于broker的数量，并且副本数量不能为0。
+<br>（1）为了实现负载均衡，Kafka尽量将所有的Partition均匀分配到整个集群上。一个典型的部署方式是一个Topic的Partition数量大于Broker的数量。
+<br>（2）为了实现高可用，kafka可以配置配个分区的副本，副本存储在不同的broker上。但是副本数量必须小于等于broker的数量，并且副本数量不能为0。
 <br> **offset**：每个partition都由一系列有序的、不可变的消息组成，这些消息被连续的追加到partition中。partition中的每个消息都有一个连续的序列号叫做offset,用于partition唯一标识一条消息.
 某一个消费组，当前对于某一个topic的某一个分区的消费偏移量。
+<br> **partition leader**: 每个partition有多个副本，其中有且仅有一个作为Leader，Leader是当前负责数据的读写的partition。
+<br> **partition follower**: Follower跟随Leader，所有写请求都通过Leader路由，数据变更会广播给所有Follower，Follower与Leader保持数据同步。
+如果Leader失效，则从Follower中选举出一个新的Leader。当Follower与Leader挂掉、卡住或者同步太慢，leader会把这个follower从“in sync replicas”（ISR）列表中删除，重新创建一个Follower。
 ![avatar](https://ws3.sinaimg.cn/large/006tNbRwly1fwg8kekp7nj31jc0sazsv.jpg)
   ***图解***
 <br> **a.强有序**: 对于一个topic，右边的生产者partition写的顺序和左边消费者读的顺序相同。
