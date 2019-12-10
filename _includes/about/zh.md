@@ -1,5 +1,5 @@
-> 简单做事，认真做人，  
-> trust the process。
+> 简单做事，认真做人。  
+> 相信过程。
 
 H，我是谭继全，英文名Jessy，欢迎读者 [博客](https://tanjiquan.github.io)、[微博](https://weibo.com/jiquantan)、[知乎](https://zhihu.com/people/tanjiquan)、[Twitter](https://twitter.com/tanjiquan)、[Github](https://github.com/tanjiquan)、[Facebook](https://facebook.com/tan.ji.quan.jessy) 
 
